@@ -1,0 +1,22 @@
+# Environment variables
+.env
+*.env
+cognitive_assistant/.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ADK
+.adk/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Credentials
+token.json
+credentials.json
+token
