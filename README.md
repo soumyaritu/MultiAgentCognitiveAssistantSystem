@@ -1,7 +1,8 @@
 MultiAgent Cognitive Assistant Architecture
 
 Overview
-The MultiAgent Cognitive Assistant System is built using the Google Agent Development Kit (ADK) and operates through a hierarchical multi-agent architecture. The system uses a primary router agent to orchestrate and delegate specific tasks to specialized sub-agents. All agents currently utilize the gemini-2.5-flash model.
+
+The MultiAgent Cognitive Assistant System is built using the Google Agent Development Kit (ADK) and operates through a hierarchical multi-agent architecture. The system uses a primary router agent to orchestrate and delegate specific tasks to specialised sub-agents. All agents currently utilise the Gemini-2.5-flash model.
 
 Core Structure
 1. Root Agent (Orchestrator)
@@ -48,6 +49,7 @@ Tools Used:
 send_email
 
 Supporting Components
+
 Common Configurations (common/retry.py): Contains the GENERATE_CONTENT_CONFIG which manages retry logic and reliability settings for LLM API calls.
 Credentials & Environment Variables:
 credentials.json & token.json for Gmail/Google API integrations.
